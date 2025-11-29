@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3f3;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.otp-box {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 400px;
+}
+
+.code-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.otp-input {
+  width: 50px;
+  height: 55px;
+  font-size: 28px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.otp-input:focus {
+  border-color: #3498db;
+}
